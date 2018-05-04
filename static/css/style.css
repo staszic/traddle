@@ -1,0 +1,244 @@
+html, body, header, footer, div,
+h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    vertical-align: baseline;
+}
+
+body {
+    line-height: 1;
+    overflow-x: hidden;
+    background-color: #eeeeee;
+    font-family: 'Open Sans', sans-serif;
+}
+
+header {
+    background-color: #200f33;
+}
+
+footer {
+    background-color: #0f0f0f;
+    min-height: 400px;
+}
+
+h1, h2, h3 {
+    font-family: 'Merriweather', serif;
+}
+
+h3 {
+    font-size: 1.4em;
+}
+
+p {
+    line-height: 1.2em;
+}
+
+.navbar {
+    width: 80%;
+    margin: auto;
+    background-color: #200f33;
+}
+
+.box-container {
+    overflow: auto;
+    text-align: center;
+}
+
+.box {
+    display: inline-block;
+    height: 60px;
+    width: 60px;
+    padding: 5px;
+    line-height: 60px;
+    margin-right: 20px;
+    border-radius: 5px;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.05);
+}
+
+.cat-filter {
+    text-decoration: none;
+}
+
+.cat-icon {
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.all {
+    background-color: #200f33;
+    color: #fff;
+}
+
+.about {
+    background-color: #b33467;
+}
+
+.agriculture {
+    background-color: #cc7736;
+}
+
+.futures {
+    background-color: #e0c4b9;
+}
+
+.precious-metals {
+    background-color: #5c575b;
+}
+
+.energy {
+    background-color: #febc66;
+}
+
+.forex {
+    background-color: #52b1b7;
+}
+
+.shares {
+    background-color: #0366a7;
+}
+
+.agriculture:hover, .about:hover, .futures:hover,
+.precious-metals:hover, .energy:hover, .forex:hover,
+.shares:hover {
+    background-color: #a60a33;
+}
+
+.inactive {
+    background-color: #b2bec2;
+    color: #200f33;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding: 20px 0px;
+    overflow: auto;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.05);
+}
+
+.img-container {
+    text-align: center;
+}
+.logo {
+    height: 50px;
+    padding: 10px;
+}
+
+.footer_logo {
+    height: 50px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+
+.ticket-container {
+    position: relative;
+}
+
+.border-container {
+    width: 8px;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.row {
+    width: 95%;
+    margin: auto;
+    overflow: auto;
+}
+
+.icon-container {
+    float: left;
+    height: 100px;
+    line-height: 100px;
+    vertical-align: middle;
+}
+
+.title-container {
+    padding-left: 10px;
+    padding-top: 10px;
+    overflow: hidden;
+    height: 100px;
+    vertical-align: middle;
+}
+
+.text-container {
+    text-align: justify;
+    line-height: 1.25;
+}
+
+.text-container p {
+    margin-bottom: 5px;
+}
+
+.art-icon {
+    height: 75px;
+}
+
+.post-title {
+    padding-bottom: 0px;
+}
+
+.chart-container {
+    overflow: hidden;
+    text-align: center;
+    vertical-align: center;
+}
+
+.chart {
+    height: 400px;
+}
+
+.current {
+    text-align: center;
+}
+
+.comment-container {
+    margin: 20px;
+    line-height: 1.2;
+}
+
+.comment-form-container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+}
+
+.add-comment {
+    margin: 20px;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+}
+
+input[type=text], input[type=email], textarea {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+textarea {
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}

@@ -1,0 +1,27 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{% block title %}{% endblock %}</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}" />
+    <link rel="icon" href="{% static 'images/circle_violet.png' %}" type="image/x-icon"/>
+    <link rel="shortcut icon" href="{% static 'images/circle_violet.png' %}" type="image/x-icon"/>
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Open+Sans" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="{% url 'blog:home' %}">
+                <img class="logo" src="{% static 'images/logo_white.png' %}" />
+            </a>
+        </nav>
+    </header>
+    {% block content %}{% endblock %}
+    <footer>
+        <div class="img-container">
+            <img class="footer_logo" src="{% static 'images/circle_white.png' %}" />
+        </div>
+    </footer>
+</body>
+</html>
