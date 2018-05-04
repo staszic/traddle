@@ -1,0 +1,1 @@
+web: gunicorn traddle.wsgi --log-file -
